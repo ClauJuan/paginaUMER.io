@@ -20,13 +20,15 @@ body{
     background-image: linear-gradient(
         rgba(0,0,0,0.7),
         rgba(0,0,0,0.7)),
-        url(images/bg.jpg);
+        url(images/portada.jpeg);
     background-position: center bottom;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 70vh;
+    max-height: 1150px;
     display: flex;
     align-items: center;
+    width: 1520px;
+    height: 800px;
 }
 
 .menu {
