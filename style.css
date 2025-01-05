@@ -75,6 +75,10 @@ body{
     text-align: center;
 }
 
+.header img{
+    width: 100px;
+}
+
 .header-content h1 {
     font-size: 75px;
     line-height: 80px;
@@ -159,7 +163,7 @@ body{
     background-image: linear-gradient(
         rgba(0,0,0,0.7),
         rgba(0,0,0,0.7)),
-        url(images/bg3.jpg);
+        url(images/ser1.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -197,7 +201,7 @@ body{
 }
 
 .services-1 img{
-    width: 25px;
+    width: 100px;
     margin-bottom: 15px;
 }
 
