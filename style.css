@@ -77,27 +77,28 @@ body{
 
 .header img{
     width: 100px;
+
 }
 
-.header-content h1 {
-    font-size: 75px;
-    line-height: 80px;
+.header-content h1 { /*Texto UMER en Inicio*/
+    font-size: 100px; 
+    line-height: 20px;
     color: #F9FAFC;
     text-transform: uppercase;
-    margin-bottom: 35px;
+    margin-bottom: 10px;
 }
 
-.header-content p {
-    font-size: 16px;
+.header-content p { /*Texto Unidad Médica Especializada de la Rosa en Inicio*/
+    font-size: 20px;
     color: #c5c5c5;
     padding: 0 250px;
     margin-bottom: 25px;
 }
 
-.btn-1 {
+.btn-1 { /*Botón de contacto en Inicio*/
     display: inline-block;
-    padding: 11px 35px;
-    background-color: #ce967b;
+    padding: 10px 30px;
+    background-color: #7ba9ce;
     color: #F9FAFC;
     text-transform: uppercase;
 }
@@ -125,12 +126,13 @@ body{
     margin-bottom: 15px;
 }
 
-.txt-p{
+.txt-p{ /*Texto de la sección Nosotros*/
     font-size: 16px;
     color: #414247;
     padding: 100 250px;
     margin-bottom: 35px;
     text-align: justify;
+    position: relative;
 }
 
 .primersec-group{
@@ -143,14 +145,18 @@ body{
     padding: 0 25px;
 }
 
-.primersec-1 img{
+.primersec-1 img{ /*Iconos instituciones*/
     width: 200px;
 }
 
-.primersec-img {
+.primersec-img{ /*Imagen superior derecha*/
     position: absolute;
     top: 0;
-    right: 0;
+    left: 1100px;
+    width: 500px;
+    clip-path: circle(50%);
+    opacity: 0.4;
+
 }
 
 .primersec-1 h3{
