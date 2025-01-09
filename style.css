@@ -152,7 +152,7 @@ body{
 .primersec-img{ /*Imagen superior derecha*/
     position: absolute;
     top: 0;
-    left: 1100px;
+    left: 1000px;
     width: 500px;
     clip-path: circle(50%);
     opacity: 0.4;
@@ -186,7 +186,7 @@ body{
     line-height: 70px;
     color: #F9FAFC;
     text-transform: uppercase;
-    margin-bottom: 50px;
+    margin-bottom: 50px;    
 }
 
 .servises-content p{
@@ -198,7 +198,9 @@ body{
 
 .services-group{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
     margin-bottom: 50px;
 }
 
@@ -227,7 +229,6 @@ body{
 }
 
 .general-2{
-    background-image: url(images/coffe-1.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
