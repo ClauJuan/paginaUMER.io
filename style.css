@@ -236,34 +236,18 @@ body{
     margin-bottom: 15px;
 }
 
-.segundasec-content h3{
-    position: absolute;
-    top: 25%;
-    left: 200px;
-    font-size: 25px;
-    color: #323337;
-}
-
-.segundasec-content p{ /*Texto contenido Contacto*/
-    position: absolute;
-    top: 40%;
-    left: 50px;
-    font-size: 16px;
-    color: #414247;
-    text-align: left;
-
-}
-
 .segundasec-content iframe {
     position: absolute;
     top: 20%;
     right: 50px;
 }
 
-.box .contenedorredsocial{
+.box .contenedorredsocial{ /*Posición iconos*/
+    top: 60%;
     position: absolute;
     display: flex;
     justify-content: center;
+    left: 500px:
     align-items: center;
 }
 
@@ -316,6 +300,12 @@ body{
 .contenedorredsocial .boton:nth-child(3):hover
 .icono{
     background: #00e676;
+    color:#fff;
+}
+
+.contenedorredsocial .boton:nth-child(4):hover
+.icono{
+    background: #06905b;
     color:#fff;
 }
 
