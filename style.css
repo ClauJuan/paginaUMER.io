@@ -238,15 +238,15 @@ body{
 
 .segundasec-content h3{
     position: absolute;
-    top: 20%;
-    left: 50px;
+    top: 25%;
+    left: 200px;
     font-size: 25px;
     color: #323337;
 }
 
 .segundasec-content p{ /*Texto contenido Contacto*/
     position: absolute;
-    top: 30%;
+    top: 40%;
     left: 50px;
     font-size: 16px;
     color: #414247;
@@ -258,11 +258,79 @@ body{
     position: absolute;
     top: 20%;
     right: 50px;
-
 }
 
+.box .contenedorredsocial{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
-    /*.general{
+.box .contenedorredsocial .boton a{ /*texto Facebook*/
+    color:#080808;
+    text-decoration: dotted;
+    font-weight: bold;
+}
+
+.contenedorredsocial .boton{
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    margin: 0 5px;
+    overflow: hidden;
+    background: #fff;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    transition: all .3s ease-out;
+}
+
+.contenedorredsocial .boton:hover{ /*largo de barra*/
+    width: 190px;
+}
+
+.contenedorredsocial .boton .icono{
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    border-radius: 50px;
+    box-sizing: border-box;
+    line-height: 60px;
+    text-align: center;
+    transition: all .3s ease-out;
+}
+
+.contenedorredsocial .boton:nth-child(1):hover
+.icono{
+    background: #1877f2;
+    color:#fff;
+}
+
+.contenedorredsocial .boton:nth-child(2):hover
+.icono{
+    background: #4cb4e8;
+    color:#fff;
+}
+
+.contenedorredsocial .boton:nth-child(3):hover
+.icono{
+    background: #00e676;
+    color:#fff;
+}
+
+.contenedorredsocial .boton i{
+    font-size: 25px;
+    line-height: 60px;
+}
+
+.contenedorredsocial .boton span{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 60px;
+    margin-left: center;
+}
+/*.general{
     display: flex;
 }
 
