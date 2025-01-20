@@ -243,7 +243,8 @@ body{
 }
 
 .box .contenedorredsocial{ /*Posición iconos*/
-    top: 60%;
+    top: 30%;
+    writing-mode: vertical-lr;
     position: absolute;
     display: flex;
     justify-content: center;
@@ -251,8 +252,9 @@ body{
     align-items: center;
 }
 
-.box .contenedorredsocial .boton a{ /*texto Facebook*/
+.box .contenedorredsocial .boton a{ /*texto icono*/
     color:#080808;
+    writing-mode: horizontal-tb;
     text-decoration: dotted;
     font-weight: bold;
 }
@@ -287,19 +289,19 @@ body{
 
 .contenedorredsocial .boton:nth-child(1):hover
 .icono{
-    background: #1877f2;
+    background: #00e676;
     color:#fff;
 }
 
 .contenedorredsocial .boton:nth-child(2):hover
 .icono{
-    background: #4cb4e8;
+    background: #1877f2;
     color:#fff;
 }
 
 .contenedorredsocial .boton:nth-child(3):hover
 .icono{
-    background: #00e676;
+    background: #4cb4e8;
     color:#fff;
 }
 
