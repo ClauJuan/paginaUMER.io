@@ -204,7 +204,7 @@ body{
 }
 
 .services-1{
-    padding: 0 100px;
+    padding: 0 50px 50px 50px;
 }
 
 .services-1 img{
@@ -229,22 +229,6 @@ body{
     padding: 330px 0;
 }
 
-/*.segundasec-margen{ 
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 139px;
-    opacity: 0.4;
-}
-
-.segundasec-margen2{
-    position: absolute;
-    top: 0;
-    left: 0px;
-    width: 139px;
-    opacity: 0.4;
-}
-*/
 .segundasec-content h2 {
     position: absolute;
     top: 5%;
