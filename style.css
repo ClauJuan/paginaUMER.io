@@ -481,7 +481,7 @@ body{
     }
 
     .boton{
-        padding: 30px;
+        justify-content: left;
     }
 
     .icono{
