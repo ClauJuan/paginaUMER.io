@@ -453,41 +453,6 @@ body{
         margin-bottom: 25px;
     }
 
-    .segundasec{
-        padding: 30px;
-    }
-
-    .segundasec-content{
-        flex-direction: column;
-        margin-bottom: 0;
-    }
-
-    .segundasec-content h2{
-        padding: 0;
-    }
-
-    .segundasec-content body{
-        padding: 30px;
-    }
-    
-    .segundasec-content iframe {
-        position: absolute;
-        top: 20%;
-        right: 250px;
-    }
-    
-    .contenedorredsocial{
-        padding: 30px;
-    }
-
-    .boton{
-        justify-content: left;
-    }
-
-    .icono{
-        padding: 30px;
-    }
-
     .blog{
         padding: 30px;
     }
