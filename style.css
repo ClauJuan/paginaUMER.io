@@ -166,8 +166,8 @@ body{
 
 .servises {
     background-image: linear-gradient(
-        rgba(0,0,0,0.7),
-        rgba(0,0,0,0.7)),
+        rgba(0,0,0,0.2),
+        rgba(0,0,0,0.2)),
         url(images/ser1.jpg);
     background-position: center center;
     background-repeat: no-repeat;
@@ -190,7 +190,7 @@ body{
 
 .servises-content p{
     font-size: 16px;
-    color: #c5c5c5;
+    color: #0b0303;
     margin-bottom: 50px;
     padding: 0 100px;
 }
@@ -213,8 +213,9 @@ body{
 }
 
 .services-1 h3{
-    color: #eaccb3;
+    color: rgb(193, 37, 115);
     font-size: 18px;
+    text-align: center;
 }
 
 .segundasec {
@@ -488,6 +489,14 @@ p{
 
     .services-1{
         margin-bottom: 25px;
+    }
+
+    .segundasec{
+        padding: 30px;
+    }
+
+    .segundasec-content{
+        padding: 0;
     }
 
     .general{
