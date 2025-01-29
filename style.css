@@ -499,6 +499,10 @@ p{
         padding: 0;
     }
 
+    .segundasec-content body{
+        padding: 30px;
+    }
+
     .box{
         padding: 30px;
     }
