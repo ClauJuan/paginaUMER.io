@@ -510,6 +510,10 @@ p{
     .contenedorredsocial{
         padding: 30px;
     }
+
+    .boton{
+        padding: 30px;
+    }
     /*.general{
         flex-direction: column;
     }
