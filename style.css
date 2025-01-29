@@ -185,7 +185,7 @@ body{
     line-height: 70px;
     color: #F9FAFC;
     text-transform: uppercase;
-    margin-bottom: 50px;    
+    margin-bottom: 30px;    
 }
 
 .servises-content p{
@@ -328,44 +328,6 @@ body{
     line-height: 80px;
     margin-left: center;
 }
-/*.general{
-    display: flex;
-}
-
-.general-1{
-    width: 50%;
-    padding: 100px 250px 100px 100px;
-    background-color: #E1E2E6;
-}
-
-.general-2{
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 50%;
-}
-
-.general-3{
-    background-image: url(images/coffee-2.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 50%;
-}
-
-h2{
-    font-size: 55px;
-    line-height: 70px;
-    color: #323337;
-    text-transform: uppercase;
-    margin-bottom: 20px;
-}
-
-p{
-    font-size: 16px;
-    color: #414247;
-    margin: 25px 0 45px 0;
-}*/
 
 .blog{
     padding: 100px 0;
@@ -525,19 +487,6 @@ p{
     .icono{
         padding: 30px;
     }
-    /*.general{
-        flex-direction: column;
-    }
-
-    .general-1{
-        width: 100%;
-        padding: 30px;
-        text-align: center;
-    }
-
-    .general-2, .general-3{
-        display: none;
-    }*/
 
     .blog{
         padding: 30px;
