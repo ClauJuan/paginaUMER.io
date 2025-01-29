@@ -506,6 +506,10 @@ p{
     .box{
         padding: 30px;
     }
+
+    .contenedorredsocial{
+        padding: 30px;
+    }
     /*.general{
         flex-direction: column;
     }
