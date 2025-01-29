@@ -520,6 +520,10 @@ p{
     .boton{
         padding: 30px;
     }
+
+    .icono{
+        padding: 30px;
+    }
     /*.general{
         flex-direction: column;
     }
