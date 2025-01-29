@@ -495,8 +495,8 @@ p{
         padding: 30px;
     }
 
-    .segundasec-content{
-        padding: 30px;
+    .segundasec-content h2{
+        padding: 0;
     }
 
     .box{
