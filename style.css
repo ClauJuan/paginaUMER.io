@@ -492,6 +492,7 @@ p{
     }
 
     .segundasec{
+        display: flex;
         padding: 60px;
     }
 
