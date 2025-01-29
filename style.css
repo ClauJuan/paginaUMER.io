@@ -496,10 +496,13 @@ p{
     }
 
     .segundasec-content{
-        padding: 0;
+        padding: 30px;
     }
 
-    .general{
+    .box{
+        padding: 30px;
+    }
+    /*.general{
         flex-direction: column;
     }
 
@@ -511,7 +514,7 @@ p{
 
     .general-2, .general-3{
         display: none;
-    }
+    }*/
 
     .blog{
         padding: 30px;
