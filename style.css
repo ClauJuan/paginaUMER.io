@@ -458,7 +458,7 @@ body{
         position: absolute;
         display: inline-block;
         justify-content: center;
-        left: 150px;
+        left: 110px;
         align-items: center;
     }
 
@@ -476,7 +476,7 @@ body{
     }
     
     .contenedorredsocial .boton:hover{ /*largo de barra*/
-        width: 15px;
+        width: 45px;
     }
     
     .contenedorredsocial .boton .icono{
@@ -491,8 +491,8 @@ body{
     }
 
     .contenedorredsocial .boton i{ /*Tamaño logo*/
-        font-size: 15px;
-        line-height: 0px;
+        font-size: 25px;
+        line-height: 40px;
     }
     
     .contenedorredsocial .boton span{
