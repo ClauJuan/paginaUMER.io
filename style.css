@@ -438,7 +438,7 @@ body{
 
     .segundasec{
         position: relative;
-        padding: 100px;
+        padding: 100px 100px 300px;
     }
 
     .segundasec-content h2{
