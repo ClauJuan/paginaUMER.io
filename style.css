@@ -441,15 +441,11 @@ body{
         padding: 100px 100px 300px;
     }
 
-    .segundasec-content h2{
-        position: absolute;
-    }
-
     .segundasec-content iframe{
         width: 250px; /*ancho*/
         height: 200px; /*largo*/
         top: 20%;
-        right: 70px;
+        right: 50px;
     }
 
     .box .contenedorredsocial{
@@ -458,10 +454,17 @@ body{
         position: absolute;
         display: inline-block;
         justify-content: center;
-        left: 110px;
+        left: 80px;
         align-items: center;
     }
-
+    
+    .box .contenedorredsocial .boton a{ /*texto icono*/
+        color:#080808;
+        writing-mode: horizontal-tb;
+        text-decoration: dotted;
+        font-weight: bold;
+    }
+    
     .contenedorredsocial .boton{
         display: inline-block;
         height: 40px;
@@ -476,7 +479,7 @@ body{
     }
     
     .contenedorredsocial .boton:hover{ /*largo de barra*/
-        width: 45px;
+        width: 105px;
     }
     
     .contenedorredsocial .boton .icono{
@@ -496,7 +499,7 @@ body{
     }
     
     .contenedorredsocial .boton span{
-        font-size: 10px;
+        font-size: 11px;
         font-weight: 50;
         line-height: 50px;
         margin-left: center;
