@@ -436,6 +436,32 @@ body{
         display: none;
     }
 
+    .segundasec{
+        position: relative;
+        padding: 150px;
+    }
+
+    .segundasec-content h2{
+        position: absolute;
+    }
+
+    .segundasec-content iframe{
+        width: 250px;
+        height: 200px;
+        top: 10%;
+        right: 70px;
+    }
+
+    .box .contenedorredsocial{
+        top: 80%;
+        writing-mode: vertical-lr;
+        position: absolute;
+        display: inline-block;
+        justify-content: center;
+        left: 4px;
+        align-items: center;
+    }
+
     .servises{
         padding: 30px;
     }
