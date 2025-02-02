@@ -188,13 +188,6 @@ body{
     margin-bottom: 30px;    
 }
 
-.servises-content p{
-    font-size: 16px;
-    color: #0b0303;
-    margin-bottom: 50px;
-    padding: 0 100px;
-}
-
 .services-group{
     display: flex;
     justify-content: center;
@@ -216,6 +209,13 @@ body{
     color: rgb(193, 37, 115);
     font-size: 18px;
     text-align: center;
+}
+
+.servises-1 p{
+    font-size: 16px;
+    color: #0b0303;
+    margin-bottom: 50px;
+    padding: 0 100px;
 }
 
 .segundasec {
@@ -464,7 +464,7 @@ body{
         text-decoration: dotted;
         font-weight: bold;
     }
-    
+
     .contenedorredsocial .boton{
         display: inline-block;
         height: 40px;
@@ -511,17 +511,48 @@ body{
 
     .servises-content p{
         padding: 0;
+        align-items: center;
     }
 
     .services-group{
-        flex-direction: column;
-        margin-bottom: 0;
+        display: grid;
+        grid-template-columns:repeat(auto-fit, minmax(100px,1fr));
+        grid-auto-rows: 110px;
+        justify-content: center;
+        padding-left: 2px;
+        padding-top: 2px;
+        padding-right: 2px;
+        padding-bottom: 2px;
     }
 
     .services-1{
-        margin-bottom: 25px;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        padding-left: 2px;
+        padding-top: 2px;
+        padding-right: 2px;
+        padding-bottom: 2px;
     }
 
+    .services-1 img{
+        width: 60px;
+        margin-bottom: 2px;
+    }
+
+    .services-1 h3{
+        color: rgb(193, 37, 115);
+        font-size: 12px;
+        text-align: center;
+        margin-bottom: 1px;
+    }
+
+    .servises-1 p{
+        font-size: 10px;
+        color: #0b0303;
+        text-align: center;
+    }
+    
     .blog{
         padding: 30px;
     }
