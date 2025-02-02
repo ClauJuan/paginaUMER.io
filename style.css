@@ -386,6 +386,11 @@ body{
         display:initial;
     }
 
+    .menu label img{
+        width: 30px;
+        height: 30px;
+    }
+
     .menu .navbar{
         position: absolute;
         top: 100%;
@@ -409,6 +414,16 @@ body{
 
     .header-content{
         padding: 100px 30px;
+    }
+
+    .header-content img{
+        width: 90px;
+        padding-bottom: 20px;
+    }
+
+    .header-content h1{
+        font-size: 70px;
+        padding-bottom: 20px;
     }
 
     .header-content p {
