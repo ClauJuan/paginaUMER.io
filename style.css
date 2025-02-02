@@ -456,10 +456,14 @@ body{
         padding: 100px 100px 300px;
     }
 
+    .segundasec-content h2{
+        right: 20px;
+    }
+    
     .segundasec-content iframe{
         width: 250px; /*ancho*/
         height: 200px; /*largo*/
-        top: 20%;
+        top: 25%;
         right: 50px;
     }
 
