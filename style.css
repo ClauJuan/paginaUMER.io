@@ -593,17 +593,15 @@ body{
     .blog{
         padding: 30px;
         text-align: center;
-    }
-
-    .blog h2 {
         position: relative;
-        left: auto;
-        font-size: 45px;
-        line-height: 70px;
-        color: #323337;
-        text-transform: uppercase;  
     }
     
+    .blog h2{
+        position: absolute;
+        font-size: 40px;
+        padding: 0;
+    }
+
     .blog-content{
         flex-direction: column;
     }
