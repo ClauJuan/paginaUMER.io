@@ -597,7 +597,7 @@ body{
     }
     
     .blog h2{
-        position: absolute;
+        position: relative;
         font-size: 40px;
         padding: 0;
     }
