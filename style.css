@@ -126,7 +126,68 @@ body{
     margin-bottom: 15px;
 }
 
+.primersec-content h3{
+    font-size: 25px;
+    line-height: 70px;
+    color: #323337;
+    text-transform: uppercase;
+    padding: 0 250px;
+    margin-bottom: 0px;
+}
+
 .txt-p{ /*Texto de la sección Nosotros*/
+    font-size: 16px;
+    color: #414247;
+    padding: 100 250px;
+    margin-bottom: 35px;
+    text-align: justify;
+    position: relative;
+}
+
+.primersec-m img{
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    top: 45.5%;
+    left: 670px;
+}
+
+.primersec-m h3{
+    font-size: 25px;
+    line-height: 70px;
+    color: #323337;
+    text-transform: uppercase;
+    padding: 0 250px;
+    margin-bottom: 0px;
+}
+
+.primersec-m p{
+    font-size: 16px;
+    color: #414247;
+    padding: 100 250px;
+    margin-bottom: 35px;
+    text-align: justify;
+    position: relative;
+}
+
+.primersec-v img{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 67.5%;
+    left: 665px;
+}
+
+.primersec-v h3{
+    font-size: 25px;
+    line-height: 70px;
+    color: #323337;
+    text-transform: uppercase;
+    padding: 0 250px;
+    margin-bottom: 0px;
+}
+
+.primersec-v p{
     font-size: 16px;
     color: #414247;
     padding: 100 250px;
@@ -456,10 +517,76 @@ body{
         padding: 0;
     }
 
-    .txt-p{
-        padding: 0;
+    .primersec-content h3{
+        font-size: 25px;
+        line-height: 70px;
+        color: #323337;
+        text-transform: uppercase;
+        padding: 0 25px;
+        margin-bottom: 0px;
     }
-
+    
+    .txt-p{ /*Texto de la sección Nosotros*/
+        font-size: 16px;
+        color: #414247;
+        padding: 100 250px;
+        margin-bottom: 35px;
+        text-align: justify;
+        position: relative;
+    }
+    
+    .primersec-m img{
+        position: absolute;
+        width: 35px;
+        height: 35px;
+        top: 38%;
+        left: 88px;
+    }
+    
+    .primersec-m h3{
+        font-size: 25px;
+        line-height: 70px;
+        color: #323337;
+        text-transform: uppercase;
+        padding: 0 25px;
+        margin-bottom: 0px;
+    }
+    
+    .primersec-m p{
+        font-size: 16px;
+        color: #414247;
+        padding: 100 250px;
+        margin-bottom: 35px;
+        text-align: justify;
+        position: relative;
+    }
+    
+    .primersec-v img{
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        top: 63.3%;
+        left: 88px;
+    }
+    
+    .primersec-v h3{
+        font-size: 25px;
+        line-height: 70px;
+        color: #323337;
+        text-transform: uppercase;
+        padding: 0 25px;
+        margin-bottom: 0px;
+    }
+    
+    .primersec-v p{
+        font-size: 16px;
+        color: #414247;
+        padding: 100 250px;
+        margin-bottom: 35px;
+        text-align: justify;
+        position: relative;
+    }
+    
     .primersec-group{
         flex-direction: column;
         margin-bottom: 0;
