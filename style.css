@@ -281,7 +281,7 @@ body{
 .segundasec-content h2 {
     position: absolute;
     top: 5%;
-    right: 600px;
+    right: 400px;
     font-size: 55px;
     line-height: 70px; /*sangria*/
     color: black;
@@ -426,6 +426,64 @@ body{
 .blog-1 h3{
     font-size: 25px;
     color: #323337;
+}
+
+.slider-wrapper{
+    position: relative;
+    max-width: 900px;
+    margin: 0 auto;
+    bottom: 30px;
+}
+
+.container h2{
+    position: relative;
+    font-size: 55px;
+    line-height: 70px;
+    align-items: center;
+    justify-content: center;
+    color: #323337;
+    text-transform: uppercase;
+    padding: 15px 480px;
+    margin-bottom: 40px;
+}
+
+.slider{
+    display: flex;
+    aspect-ratio: 16/9;
+    overflow-x: hidden;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    box-shadow: 0 .25rem .5rem #21212126;
+    border-radius: .5rem;
+}
+
+.slider img {
+    flex: 1 0 100%;
+    scroll-snap-align: star;
+    object-fit: cover;
+}
+
+.slider-nav {
+    display: flex;
+    column-gap: 1rem;
+    position: absolute;
+    bottom: 1.25rem;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+.slider-nav a {
+    width: .5rem;
+    height: .5rem;
+    border-radius: 50%;
+    background-color: #fff;
+    opacity: .75;
+    transition: opacity ease 250ms;
+}
+
+.slider-nav a:hover {
+    opacity: 100%;
 }
 
 .footer{
