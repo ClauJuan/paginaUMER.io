@@ -266,13 +266,6 @@ body{
     text-align: center;
 }
 
-.servises-1 p{
-    font-size: 16px;
-    color: #0b0303;
-    margin-bottom: 50px;
-    padding: 0 100px;
-}
-
 .segundasec {
     position: relative;
     background-image: linear-gradient(
@@ -304,7 +297,7 @@ body{
 }
 
 .box .contenedorredsocial{ /*Posición iconos*/
-    top: 30%;
+    top: 15%;
     writing-mode: vertical-lr;
     position: absolute;
     display: inline-block;
@@ -369,6 +362,20 @@ body{
 .contenedorredsocial .boton:nth-child(4):hover
 .icono{
     background: #06905b;
+    color:#fff;
+}
+
+.contenedorredsocial .boton:nth-child(5):hover
+.icono{
+    background: #e94359;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top,rgba(252, 222, 73, 0.981),#e94359, #820298 );  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, rgba(252, 222, 73, 0.981), #e94359, #820298); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color:#fff;
+}
+
+.contenedorredsocial .boton:nth-child(6):hover
+.icono{
+    background: black;
     color:#fff;
 }
 
@@ -606,7 +613,7 @@ body{
         position: absolute;
         display: inline-block;
         justify-content: center;
-        left: 80px;
+        left: 36px;
         align-items: center;
     }
     
