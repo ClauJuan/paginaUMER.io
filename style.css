@@ -403,7 +403,7 @@ body{
     color: #323337;
     text-transform: uppercase;
     padding: 0 550px;
-    margin-bottom: 15px;;  
+    margin-bottom: 15px;
 }
 
 .blog-content{
@@ -768,15 +768,12 @@ body{
     }
     
     .blog{
-        padding: 30px;
-        text-align: center;
-        position: relative;
+        padding: 0;
     }
     
     .blog h2{
-        position: relative;
         font-size: 40px;
-        padding: 0;
+        padding: 0 40px;
     }
 
     .blog-content{
@@ -786,7 +783,7 @@ body{
     }
 
     .blog-1 img{
-        width: 110px;
+        width: 120px;
         border-radius: 15px;
         margin-bottom: 15px;
     }
