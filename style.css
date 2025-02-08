@@ -786,6 +786,7 @@ body{
         width: 120px;
         border-radius: 15px;
         margin-bottom: 15px;
+        border: .05rem solid #fc2e99;
     }
     
     .containers h2{
